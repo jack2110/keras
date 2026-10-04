@@ -154,7 +154,7 @@ def Input(
     tensor=None,
     optional=False,
 ):
-    """Used to instantiate a Keras tensor.
+    """Used to instantiate a Keras tensor (as experimental).
 
     A Keras tensor is a symbolic tensor-like object, which we augment with
     certain attributes that allow us to build a Keras model just by knowing the
